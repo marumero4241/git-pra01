@@ -15,7 +15,6 @@ class Numeric
     self.+(x)
   end
 end
-
 def hi(name = world)
   puts "Hello #{name.capitalize}!"
 end
