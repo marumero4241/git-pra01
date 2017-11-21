@@ -1,12 +1,14 @@
 new Vue({
-el: "#app",
-data: {
-  message: 'hello'
-},
-methods :{
-  getmessage () {
-    return this.message
+  el:'#app',
+  data: {
+    message: 'Hello World!'
+  },
+  methods: {
+    getmessage () {
+      return this.message
+    },
+    reversemessage () {
+      return this.message.split('').reverse().join('')
+    }
   }
-}
 })
-
